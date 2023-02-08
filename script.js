@@ -13,7 +13,7 @@ searchBtn.addEventListener('click', () => {
 	let mac = searchInput.value
 		.toLowerCase()
 		.split('')
-		.filter(x => x != ':' && x != '-' && x != '.')
+		.filter(x => x != ':' && x != '-' && x != '.' && x != ' ')
 		.join('')
 		.match(/.{1,2}/g)
 		.join(':');
