@@ -1,0 +1,11 @@
+{
+	"name": "MAC Format converter",
+	"version": "1.0.0",
+	"description": "Converts any MAC format to scpecific",
+	"manifest_version": 3,
+	"author": "Vadim Nikitchuk",
+	"action":{
+		 "default_popup": "index.html",
+		 "default_title": "MAC converter"
+	}
+}

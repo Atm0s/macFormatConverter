@@ -6,15 +6,20 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>MAC-CONVERTER</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<input class="search-field" type="text" id="mac_ven" name="mac_ven" maxlength="30" value="" />
-	<input class="search-button" type="submit" value="Search" name="submit" />
-
-	<!-- <div class="head"></div> -->
-	<div class="mac"></div>
-	<div class="mac-ven"></div>
+	<div class="wrapper">
+		<div class="form">
+			<!-- <form class="form" action=""> -->
+			<input class="search-field" type="text" id="mac_ven" name="mac_ven" maxlength="30" value="" placeholder="Put a MAC-address here" >
+			<input class="search-button" type="submit" value="Search" name="submit">
+			<!-- </form> -->
+		</div>
+		<div class="mac"></div>
+		<div class="mac-ven"></div>
+	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="script.js"></script>
 </body>
